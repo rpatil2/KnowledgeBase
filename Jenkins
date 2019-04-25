@@ -1,0 +1,10 @@
+Run Jenkins job for a specific tag
+
+In Source Code Management, under Advanced add Refspec
+
+Refspec : +refs/tags/*:refs/remotes/origin/tags/* 
+
+Branches to build  
+ Branch Specifier (blank for 'any') : v1.1
+ 
+Jenkins Console Output will have 'Checking out Revision 433lt39bg2zv4587dj2v06pes8e341q4gjv1tc02 (v1.1)'
